@@ -232,7 +232,7 @@ export function Layout({ children, darkMode, setDarkMode, userRole }: LayoutProp
         {
           text: 'ایجاد کلاس   ',
           icon: <AddIcon   />,
-          path: '/',
+          path: '/createclass',
         },
         {
           text: ' ایجاد درس    ',
@@ -242,17 +242,56 @@ export function Layout({ children, darkMode, setDarkMode, userRole }: LayoutProp
         {
           text: ' ایجاد رشته / پایه    ',
           icon: <AddIcon  />,
-          path: '/',
+          path: '/createreshrte',
         },
         {
           text: 'مشاهده کلاس ها  ',
-          icon: <AddIcon  />,
-          path: '/',
+          icon: <AddIcon />,
+          path: '/viewclass',
         },
         {
           text: 'مشاهده رشته ها ',
-          icon: <AddIcon  />,
-          path: '/',
+          icon: <AddIcon />,
+          path: '/viewreshte',
+        },
+        
+      ],
+    },
+    {
+      text: ' دوربین آنلاین ',
+      id: 8,
+      icon: <LocationOnIcon  />,
+      path: false,
+      sublists: [
+        {
+          text: 'کلاس یک  ',
+          icon: <AddLocationIcon  />,
+          path: '/onlinecam/class1',
+        },
+        {
+          text: 'کلاس  دو ',
+          icon: <LocationOnIcon  />,
+          path: '/onlinecam/class2',
+        },
+        {
+          text: 'کلاس  سه ',
+          icon: <LocationOnIcon  />,
+          path: '/onlinecam/class3',
+        },
+        {
+          text: 'کلاس  چهار ',
+          icon: <LocationOnIcon  />,
+          path: '/onlinecam/class4',
+        },
+        {
+          text: 'کلاس  پنج ',
+          icon: <LocationOnIcon  />,
+          path: '/onlinecam/class5',
+        },
+        {
+          text: 'کلاس  شیش ',
+          icon: <LocationOnIcon  />,
+          path: '/onlinecam/class6',
         },
       ],
     },
